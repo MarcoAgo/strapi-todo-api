@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_utils_components",
+  "info": {
+    "displayName": "component"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

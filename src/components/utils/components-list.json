@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_utils_components_lists",
+  "info": {
+    "displayName": "componentsList",
+    "icon": "code-branch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "componentsList": {
+      "type": "enumeration",
+      "enum": [
+        "TitleDescriptionPage",
+        "Image"
+      ],
+      "required": true
+    }
+  }
+}

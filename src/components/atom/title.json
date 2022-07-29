@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_atom_titles",
+  "info": {
+    "displayName": "Title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

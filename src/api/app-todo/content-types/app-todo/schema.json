@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_todos",
+  "info": {
+    "singularName": "app-todo",
+    "pluralName": "app-todos",
+    "displayName": "AppTodos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "organisms.title-description-image"
+    }
+  }
+}

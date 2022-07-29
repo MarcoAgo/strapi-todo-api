@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_atom_images",
+  "info": {
+    "displayName": "image"
+  },
+  "options": {},
+  "attributes": {
+    "media_image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "private": true
+    }
+  }
+}
