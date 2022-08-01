@@ -10,22 +10,40 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
+    "components": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "atom.title",
+        "organisms.header",
+        "atom.button",
+        "atom.image",
+        "atom.link",
+        "atom.text",
+        "organisms.title-description-image"
+      ],
+      "required": false
+    },
     "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "utils.seo"
-    },
-    "meta": {
-      "type": "component",
-      "repeatable": true,
-      "component": "utils.meta-repeatable-component"
-    },
-    "titleDescriptionImage": {
-      "type": "component",
-      "repeatable": false,
-      "component": "organisms.title-description-image"
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "utils.seo"
+      ]
     }
   }
 }

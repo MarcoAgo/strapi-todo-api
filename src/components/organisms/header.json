@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_organisms_headers",
+  "info": {
+    "displayName": "Header",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "nav_link": {
+      "displayName": "Link",
+      "type": "component",
+      "repeatable": true,
+      "component": "atom.link"
+    }
+  }
+}
