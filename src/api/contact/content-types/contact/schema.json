@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact",
     "pluralName": "contacts",
-    "displayName": "Contacts"
+    "displayName": "Contacts",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,15 +16,23 @@
     }
   },
   "attributes": {
-    "Title": {
-      "type": "component",
-      "repeatable": false,
+    "components": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "atom.title"
+      "type": "dynamiczone",
+      "components": [
+        "atom.button",
+        "atom.image",
+        "atom.link",
+        "atom.text",
+        "atom.title",
+        "organisms.header",
+        "organisms.title-description-image",
+        "template.default-page"
+      ]
     }
   }
 }

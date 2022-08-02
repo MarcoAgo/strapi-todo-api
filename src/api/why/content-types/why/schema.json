@@ -4,7 +4,8 @@
   "info": {
     "singularName": "why",
     "pluralName": "whies",
-    "displayName": "Why"
+    "displayName": "Why",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,15 +16,27 @@
     }
   },
   "attributes": {
-    "Title": {
-      "type": "component",
-      "repeatable": false,
+    "components": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "atom.title"
+      "type": "dynamiczone",
+      "components": [
+        "atom.button",
+        "atom.image",
+        "atom.link",
+        "atom.text",
+        "atom.title",
+        "template.default-page",
+        "organisms.header",
+        "organisms.title-description-image",
+        "utils.component",
+        "utils.components-list",
+        "utils.meta-repeatable-component",
+        "utils.seo"
+      ]
     }
   }
 }
