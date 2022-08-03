@@ -1,10 +1,11 @@
 module.exports = () => ({
+  navigation: {
+    enabled: true,
+    gql: {
+      navigationItemRelated: ['Homepage', 'App', 'AppTodos', 'Contact', 'Why', 'Author'],
+    },
+  },
   graphql: {
     enabled: true,
-    config: {
-      playgroundAlways: false,
-      defaultLimit: 10,
-      maxLimit: 20
-    }
   }
 })

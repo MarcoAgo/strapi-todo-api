@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_organisms_hero_openers",
+  "info": {
+    "displayName": "HeroOpener",
+    "icon": "camera-retro"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atom.title"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atom.text"
+    },
+    "bg_media": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

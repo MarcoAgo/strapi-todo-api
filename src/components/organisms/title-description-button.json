@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_organisms_title_description_images",
+  "collectionName": "components_organisms_title_description_buttons",
   "info": {
-    "displayName": "titleDescriptionImage",
-    "icon": "arrows-alt",
-    "description": ""
+    "displayName": "titleDescriptionButton",
+    "icon": "align-justify"
   },
   "options": {},
   "attributes": {
@@ -16,11 +15,6 @@
       "type": "component",
       "repeatable": false,
       "component": "atom.text"
-    },
-    "image": {
-      "type": "component",
-      "repeatable": false,
-      "component": "atom.image"
     },
     "cta": {
       "type": "component",

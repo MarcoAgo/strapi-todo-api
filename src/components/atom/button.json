@@ -2,13 +2,20 @@
   "collectionName": "components_atom_buttons",
   "info": {
     "displayName": "button",
-    "icon": "adjust"
+    "icon": "adjust",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "label": {
       "type": "string",
       "required": true
+    },
+    "type": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }

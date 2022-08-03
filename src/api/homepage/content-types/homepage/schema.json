@@ -30,7 +30,9 @@
         "atom.image",
         "atom.link",
         "atom.text",
-        "organisms.title-description-image"
+        "organisms.title-description-image",
+        "organisms.hero-opener",
+        "organisms.title-description-button"
       ],
       "required": false
     },
