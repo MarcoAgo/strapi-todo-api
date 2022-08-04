@@ -29,7 +29,6 @@
         "atom.link",
         "atom.text",
         "atom.title",
-        "template.default-page",
         "organisms.header",
         "organisms.title-description-image",
         "utils.component",

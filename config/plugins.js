@@ -2,7 +2,7 @@ module.exports = () => ({
   navigation: {
     enabled: true,
     gql: {
-      navigationItemRelated: ['Homepage', 'App', 'AppTodos', 'Contact', 'Why', 'Author'],
+      navigationItemRelated: ['Homepage', 'Contact', 'Why', 'Author'],
     },
   },
   graphql: {

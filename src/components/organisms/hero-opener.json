@@ -2,27 +2,31 @@
   "collectionName": "components_organisms_hero_openers",
   "info": {
     "displayName": "HeroOpener",
-    "icon": "camera-retro"
+    "icon": "camera-retro",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "component",
       "repeatable": false,
-      "component": "atom.title"
+      "component": "atom.title",
+      "required": true
     },
     "description": {
       "type": "component",
       "repeatable": false,
-      "component": "atom.text"
+      "component": "atom.text",
+      "required": true
     },
     "bg_media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

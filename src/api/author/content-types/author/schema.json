@@ -30,8 +30,7 @@
         "atom.text",
         "atom.title",
         "organisms.header",
-        "organisms.title-description-image",
-        "template.default-page"
+        "organisms.title-description-image"
       ]
     }
   }

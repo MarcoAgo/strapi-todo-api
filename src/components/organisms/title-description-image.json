@@ -10,22 +10,26 @@
     "title": {
       "type": "component",
       "repeatable": false,
-      "component": "atom.title"
+      "component": "atom.title",
+      "required": true
     },
     "description": {
       "type": "component",
       "repeatable": false,
-      "component": "atom.text"
+      "component": "atom.text",
+      "required": true
     },
     "image": {
       "type": "component",
       "repeatable": false,
-      "component": "atom.image"
+      "component": "atom.image",
+      "required": true
     },
     "cta": {
       "type": "component",
       "repeatable": false,
-      "component": "atom.button"
+      "component": "atom.button",
+      "required": true
     }
   }
 }
