@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "app_registrations",
+  "info": {
+    "singularName": "app-registration",
+    "pluralName": "app-registrations",
+    "displayName": "App Registration"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "components": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "organisms.registration-form"
+      ],
+      "required": true
+    }
+  }
+}

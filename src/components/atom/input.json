@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_atom_inputs",
+  "info": {
+    "displayName": "input"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string",
+      "default": "text",
+      "required": false
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "default": "placeholder",
+      "required": true
+    }
+  }
+}

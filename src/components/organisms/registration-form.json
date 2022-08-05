@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_organisms_registration_forms",
+  "info": {
+    "displayName": "RegistrationForm",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "input": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atom.input",
+      "required": true
+    },
+    "submit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atom.button"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atom.title",
+      "required": true
+    },
+    "subtitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atom.text"
+    },
+    "alreadyRegistered": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atom.link"
+    }
+  }
+}
